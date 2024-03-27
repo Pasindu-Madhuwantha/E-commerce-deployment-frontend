@@ -5,6 +5,6 @@ RUN npm install
 COPY . .
 ENV NODE_ENV=production
 RUN npm run build
-EXPOSE 3000
+EXPOSE 3006
 CMD ["npm", "start"]
 
